@@ -1,1 +1,135 @@
+<!-- Load Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+<style>
+    .pricing-card {
+        max-width: 400px;
+        margin: 20px auto;
+        font-family: sans-serif;
+        border: 1px solid #eee;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .pricing-header {
+        text-align: center;
+        padding: 20px;
+        background-color: #f9f9f9;
+    }
+
+    .pricing-header h2 {
+        color: #007BFF;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .pricing-header p {
+        font-size: 16px;
+        color: #555;
+        margin: 0;
+    }
+
+    .pricing-price {
+        text-align: center;
+        padding: 20px 0 0 0;
+    }
+
+    .pricing-price h1 {
+        font-size: 36px;
+        margin: 0;
+        color: #333;
+    }
+
+    .pricing-button {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .pricing-button button {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 12px 40px;
+        font-size: 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        width: 100%;
+        transition: background-color 0.3s;
+    }
+
+    .pricing-button button:hover {
+        background-color: #0056b3;
+    }
+
+    .pricing-features {
+        list-style: none;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .pricing-features li {
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        color: #333;
+    }
+
+    .pricing-features li i {
+        color: #FFD700;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    @media (max-width: 768px) {
+        .pricing-card {
+            max-width: 90%;
+        }
+        .pricing-button button {
+            padding: 12px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .pricing-card {
+            margin: 10px;
+        }
+        .pricing-header h2 {
+            font-size: 24px;
+        }
+        .pricing-price h1 {
+            font-size: 30px;
+        }
+        .pricing-button button {
+            padding: 10px;
+            font-size: 15px;
+        }
+    }
+</style>
+
+<div class="pricing-card">
+    <div class="pricing-header">
+        <h2>Comodo Positive Multidomain
+SSL-certificate</h2>
+        <p>The perfect affordable SSL for basic websites.</p>
+    </div>
+
+    <div class="pricing-price">
+        <h1>$39.99/yr</h1>
+    </div>
+
+    <div class="pricing-button">
+        <button>Select Plan</button>
+    </div>
+
+    <ul class="pricing-features">
+        <li><i class="fas fa-check"></i>Domain Validation (DV)</li>
+        <li><i class="fas fa-check"></i>Issuance in 5 minutes</li>
+        <li><i class="fas fa-check"></i>Protect multiple domain (mydom.com, mydomain.tld, sub.anotherdom.com etc.)</li>
+        <li><i class="fas fa-check"></i>Free Reissuance</li>
+        <li><i class="fas fa-check"></i>Encryption: SHA2</li>
+        <li><i class="fas fa-check"></i>Free shipping via email</li>
+    </ul>
+</div>
