@@ -1,0 +1,186 @@
+<div class="ssl-filter">
+  <h2>Choose SSL Type</h2>
+
+  <div class="filter-section">
+    <label><input type="radio" name="type" value="personal" checked> Personal</label>
+    <label><input type="radio" name="type" value="business"> Business / eCommerce</label>
+  </div>
+
+  <div class="filter-section">
+    <h3>Domains</h3>
+    <label><input type="checkbox" name="domain" value="single"> Single Domain</label>
+    <label><input type="checkbox" name="domain" value="multi"> Multi-Domain</label>
+    <label><input type="checkbox" name="domain" value="wildcard"> Wildcard</label>
+  </div>
+
+  <div class="filter-section">
+    <h3>Validation</h3>
+    <label><input type="checkbox" name="validation" value="dv"> DV (Domain Validation)</label>
+    <label><input type="checkbox" name="validation" value="ov"> OV (Organization Validation)</label>
+    <label><input type="checkbox" name="validation" value="ev"> EV (Extended Validation)</label>
+  </div>
+
+  <div class="filter-section">
+    <h3>Brands</h3>
+    <div class="brands-grid">
+      <!-- Each brand -->
+      <label class="brand-option">
+        <img src="https://www.fyphost.com/wp-content/uploads/2025/04/comodo-1574c12d4de592b0c67760d2c633750a6d34d520ac6259c06e4f44dc1c6b655d.svg" alt="Comodo">
+        <input type="checkbox" name="brand" value="comodo">
+      </label>
+
+      <label class="brand-option">
+        <img src="https://www.fyphost.com/wp-content/uploads/2025/04/digicert-cc64d53a651b1857063392a39f68ad0444f9dae60561a6d87c6a3323a24d4fa8.svg" alt="DigiCert">
+        <input type="checkbox" name="brand" value="digicert">
+      </label>
+
+      <label class="brand-option">
+        <img src="https://www.fyphost.com/wp-content/uploads/2025/04/thawte-92ff54a24632fcd4a60a726f52e760980dd4a72a91a09adba82ff67174c6aff8.svg" alt="Thawte">
+        <input type="checkbox" name="brand" value="thawte">
+      </label>
+
+      <label class="brand-option">
+        <img src="https://www.fyphost.com/wp-content/uploads/2025/04/geotrust-00b189deccf9a2eab562de2b7728530745b518bddc8df75a64525eb21e57bfde.svg" alt="GeoTrust">
+        <input type="checkbox" name="brand" value="geotrust">
+      </label>
+
+      <label class="brand-option">
+        <img src="https://www.fyphost.com/wp-content/uploads/2025/04/rapidssl-37d88ca7677f41730067471835892be5cdcbfc21391b2121259cddd623d081a7.svg" alt="RapidSSL">
+        <input type="checkbox" name="brand" value="rapidssl">
+      </label>
+
+      <label class="brand-option">
+        <img src="https://www.fyphost.com/wp-content/uploads/2025/04/sectigo-a245267451278a2c08c41e214ad896a53e0dd975a3e4c4ddcb424d14de4c5b0a.svg" alt="Sectigo">
+        <input type="checkbox" name="brand" value="sectigo">
+      </label>
+
+      <label class="brand-option">
+        <img src="https://www.fyphost.com/wp-content/uploads/2025/04/entrust-0df5760dba8cb49c5f505a11307091f5f50ea92d404128ffae7f526abb874f2c.svg" alt="Entrust">
+        <input type="checkbox" name="brand" value="entrust">
+      </label>
+
+      <label class="brand-option">
+        <img src="https://www.fyphost.com/wp-content/uploads/2025/04/certum-ad53952c89102ab21f6498eab5555c659e4ef9897a09bd6b9485b29743ca3524.svg" alt="Certum">
+        <input type="checkbox" name="brand" value="certum">
+      </label>
+
+      <label class="brand-option">
+        <img src="https://www.fyphost.com/wp-content/uploads/2025/04/globalsign-logo-png_seeklogo-341758.png" alt="GlobalSign">
+        <input type="checkbox" name="brand" value="globalsign">
+      </label>
+    </div>
+  </div>
+
+  <button type="submit" class="ssl-button">Show Certificates</button>
+</div>
+
+<!-- Fully responsive CSS -->
+<style>
+.ssl-filter {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.ssl-filter h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #0072ff;
+}
+
+.filter-section {
+  margin-bottom: 25px;
+}
+
+.filter-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.brands-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* One column for vertical stacking */
+  gap: 15px;
+}
+
+.brand-option {
+  display: flex;
+  flex-direction: row; /* Align logo and checkbox horizontally */
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px; /* Smaller padding */
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s;
+}
+
+.brand-option:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+}
+
+.brand-option img {
+  width: 170px; /* Logo width set to 170px */
+  height: 110px; /* Logo height set to 110px */
+  margin-right: 8px; /* Adjusted spacing between logo and checkbox */
+  pointer-events: none;
+}
+
+.brand-option input[type="checkbox"] {
+  width: 14px; /* Checkbox size */
+  height: 14px;
+}
+
+.ssl-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0072ff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.ssl-button:hover {
+  background-color: #0056cc;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .brands-grid {
+    grid-template-columns: 1fr; /* Maintain single column for mobile */
+  }
+
+  .ssl-filter {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-option img {
+    width: 120px; /* Adjusted logo size for mobile */
+    height: 80px; /* Adjusted logo height for mobile */
+  }
+
+  .ssl-button {
+    padding: 12px;
+    font-size: 15px;
+  }
+}
+  </style>
