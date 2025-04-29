@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SSL Pricing - Fyphost</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+    }
+
+    #pricing-table {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    .pricing-card {
+      flex: 1 1 300px;
+      max-width: 400px;
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pricing-header {
+      text-align: center;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .pricing-header h2 {
+      color: #007BFF;
+      font-size: 24px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .pricing-header p {
+      font-size: 16px;
+      color: #555;
+      margin: 0;
+    }
+
+    .pricing-logo {
+      max-width: 120px;
+      margin-bottom: 10px;
+    }
+
+    .pricing-price {
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .pricing-price h1 {
+      font-size: 32px;
+      color: #333;
+      margin: 0;
+    }
+
+    .pricing-button {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .pricing-button a {
+      text-decoration: none;
+    }
+
+    .pricing-button button {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 12px 40px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s;
+    }
+
+    .pricing-button button:hover {
+      background-color: #0056b3;
+    }
+
+    .pricing-features {
+      list-style: none;
+      padding: 20px;
+      margin: 0;
+      flex-grow: 1;
+    }
+
+    .pricing-features li {
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .pricing-features li i {
+      color: #FFD700;
+      margin-right: 10px;
+      font-size: 18px;
+    }
+
+    @media (max-width: 768px) {
+      #pricing-table {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="pricing-table">
+     <div class="pricing-card">
+  <div class="pricing-header">
+    <img src="https://www.fyphost.com/wp-content/uploads/2025/04/digicert-cc64d53a651b1857063392a39f68ad0444f9dae60561a6d87c6a3323a24d4fa8.svg" alt="DigiCert Secure Site Logo" class="pricing-logo" />
+    <h2>DigiCert Secure Site</h2>
+    <p>Reliable OV SSL with strong encryption and multi-domain support for businesses.</p>
+  </div>
+  <div class="pricing-price">
+    <h1>$179.00/yr</h1>
+  </div>
+  <ul class="pricing-features">
+    <li><i class="fas fa-check"></i> Verifies your organization (OV)</li>
+    <li><i class="fas fa-check"></i> Encryption: SHA2</li>
+    <li><i class="fas fa-check"></i> Protect multiple domains<br>(mydom.com, mydomain.org, sub.anotherdom.com etc.)</li>
+    <li><i class="fas fa-check"></i> Free shipping via email</li>
+    <li><i class="fas fa-check"></i> Possibility of Common Name replacement during validity period</li>
+  </ul>
+  <div class="pricing-button">
+    <a href="https://fyphost.com/p/ssl/digicert/id.php?id=3">
+      <button>Select Plan</button>
+    </a>
+  </div>
+</div>
+ <div class="pricing-card">
+  <div class="pricing-header">
+    <img src="https://www.fyphost.com/wp-content/uploads/2025/04/digicert-cc64d53a651b1857063392a39f68ad0444f9dae60561a6d87c6a3323a24d4fa8.svg" alt="DigiCert Secure Site Pro Logo" class="pricing-logo" />
+    <h2>DigiCert Secure Site Pro</h2>
+    <p>Advanced OV SSL with ECC support, vulnerability assessment, and multi-domain coverage.</p>
+  </div>
+  <div class="pricing-price">
+    <h1>$799.00/yr</h1>
+  </div>
+  <ul class="pricing-features">
+    <li><i class="fas fa-check"></i> Verifies your organization (OV)</li>
+    <li><i class="fas fa-check"></i> ECC Support</li>
+    <li><i class="fas fa-check"></i> Encryption: SHA2</li>
+    <li><i class="fas fa-check"></i> Protect multiple domains<br>(mydom.com, mydomain.org, sub.anotherdom.com etc.)</li>
+    <li><i class="fas fa-check"></i> Vulnerability assessment</li>
+    <li><i class="fas fa-check"></i> Free shipping via email</li>
+    <li><i class="fas fa-check"></i> Possibility of Common Name replacement during validity period</li>
+  </ul>
+  <div class="pricing-button">
+    <a href="https://fyphost.com/p/ssl/digicert/id.php?id=4">
+      <button>Select Plan</button>
+    </a>
+  </div>
+</div>   
+    <div class="pricing-card">
+  <div class="pricing-header">
+    <img src="https://www.fyphost.com/wp-content/uploads/2025/04/digicert-cc64d53a651b1857063392a39f68ad0444f9dae60561a6d87c6a3323a24d4fa8.svg" alt="DigiCert Secure Site with EV Logo" class="pricing-logo" />
+    <h2>DigiCert Secure Site with EV</h2>
+    <p>Premium Extended Validation SSL for maximum identity assurance and multi-domain protection.</p>
+  </div>
+  <div class="pricing-price">
+    <h1>$655.40/yr</h1>
+  </div>
+  <ul class="pricing-features">
+    <li><i class="fas fa-check"></i> Free Reissuance</li>
+    <li><i class="fas fa-check"></i> Protect multiple domains<br>(www.domain1.com, domain1.com, www.domain2.com, domain2.com, sub.sub1.domain.com etc.)</li>
+    <li><i class="fas fa-check"></i> Extended Validation (EV)</li>
+    <li><i class="fas fa-check"></i> Encryption: SHA2</li>
+    <li><i class="fas fa-check"></i> Free shipping via email</li>
+    <li><i class="fas fa-check"></i> Possibility of Common Name replacement during validity period</li>
+  </ul>
+  <div class="pricing-button">
+    <a href="https://fyphost.com/p/ssl/digicert/id.php?id=1">
+      <button>Select Plan</button>
+    </a>
+  </div>
+</div>
+<div class="pricing-card">
+  <div class="pricing-header">
+    <img src="https://www.fyphost.com/wp-content/uploads/2025/04/digicert-cc64d53a651b1857063392a39f68ad0444f9dae60561a6d87c6a3323a24d4fa8.svg" alt="DigiCert Secure Site Pro with EV Logo" class="pricing-logo" />
+    <h2>DigiCert Secure Site Pro with EV</h2>
+    <p>Advanced EV SSL with ECC support, full identity assurance, and multi-domain coverage.</p>
+  </div>
+  <div class="pricing-price">
+    <h1>$999.00/yr</h1>
+  </div>
+  <ul class="pricing-features">
+    <li><i class="fas fa-check"></i> Free Reissuance</li>
+    <li><i class="fas fa-check"></i> Protect multiple domains<br>(www.domain1.com, domain1.com, www.domain2.com, domain2.com, sub.sub1.domain.com etc.)</li>
+    <li><i class="fas fa-check"></i> Encryption: SHA2</li>
+    <li><i class="fas fa-check"></i> Extended Validation (EV)</li>
+    <li><i class="fas fa-check"></i> ECC Support</li>
+    <li><i class="fas fa-check"></i> Free shipping via email</li>
+    <li><i class="fas fa-check"></i> Possibility of Common Name replacement during validity period</li>
+  </ul>
+  <div class="pricing-button">
+    <a href="https://fyphost.com/p/ssl/digicert/id.php?id=2">
+      <button>Select Plan</button>
+    </a>
+  </div>
+</div>
+<div class="pricing-card">
+  <div class="pricing-header">
+    <img src="https://www.fyphost.com/wp-content/uploads/2025/04/digicert-cc64d53a651b1857063392a39f68ad0444f9dae60561a6d87c6a3323a24d4fa8.svg" alt="DigiCert Secure Site Wildcard Logo" class="pricing-logo" />
+    <h2>DigiCert Secure Site Wildcard</h2>
+    <p>Organization Validated SSL to protect your main domain and all subdomains with one certificate.</p>
+  </div>
+  <div class="pricing-price">
+    <h1>$1999.00/yr</h1>
+  </div>
+  <ul class="pricing-features">
+    <li><i class="fas fa-check"></i> Verifies your organization (OV)</li>
+    <li><i class="fas fa-check"></i> Protect all subdomains and main domain<br>(sub1.mydom.com, sub2.mydom.com etc.)</li>
+    <li><i class="fas fa-check"></i> Issuance from 1 to several days</li>
+    <li><i class="fas fa-check"></i> Encryption: SHA2</li>
+    <li><i class="fas fa-check"></i> Free shipping via email</li>
+    <li><i class="fas fa-check"></i> Possibility of Common Name replacement during validity period</li>
+  </ul>
+  <div class="pricing-button">
+    <a href="https://fyphost.com/p/ssl/digicert/id.php?id=5">
+      <button>Select Plan</button>
+    </a>
+  </div>
+</div>
+<div class="pricing-card">
+  <div class="pricing-header">
+    <img src="https://www.fyphost.com/wp-content/uploads/2025/04/digicert-cc64d53a651b1857063392a39f68ad0444f9dae60561a6d87c6a3323a24d4fa8.svg" alt="DigiCert Secure Site Pro Wildcard Logo" class="pricing-logo" />
+    <h2>DigiCert Secure Site Pro Wildcard</h2>
+    <p>Top-tier OV Wildcard SSL with maximum security, ECC support, and vulnerability assessment.</p>
+  </div>
+  <div class="pricing-price">
+    <h1>$3999.00/yr</h1>
+  </div>
+  <ul class="pricing-features">
+    <li><i class="fas fa-check"></i> Verifies your organization (OV)</li>
+    <li><i class="fas fa-check"></i> Issuance from 1 to several days</li>
+    <li><i class="fas fa-check"></i> Protect all subdomains and main domain<br>(sub1.mydom.com, sub2.mydom.com etc.)</li>
+    <li><i class="fas fa-check"></i> Encryption: SHA2</li>
+    <li><i class="fas fa-check"></i> Free shipping via email</li>
+    <li><i class="fas fa-check"></i> Premium quality</li>
+    <li><i class="fas fa-check"></i> Vulnerability assessment</li>
+    <li><i class="fas fa-check"></i> ECC support</li>
+    <li><i class="fas fa-check"></i> Possibility of Common Name replacement during validity period</li>
+  </ul>
+  <div class="pricing-button">
+    <a href="https://fyphost.com/p/ssl/digicert/id.php?id=6">
+      <button>Select Plan</button>
+    </a>
+  </div>
+</div>
